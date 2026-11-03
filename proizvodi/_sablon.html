@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+  ŠABLON STRANICE PROIZVODA
+  Ne menjaj gotove stranice u proizvodi/ ručno - one se prave iz ovog šablona.
+  1. Podatke o proizvodu menjaš u data/products.json
+  2. Izgled svih stranica proizvoda menjaš ovde
+  3. Pokreneš tools/build.ps1 i sve stranice proizvoda se naprave ponovo
+  Oznake {{NESTO}} zamenjuje build.ps1. {{ROOT}} je putanja do korena sajta ("../").
+-->
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- START: gtm-head -->
+  <!-- END: gtm-head -->
+
+  <!-- SEO -->
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="canonical" href="{{CANONICAL}}">
+  <meta property="og:type" content="product">
+  <meta property="og:site_name" content="Möller's Srbija">
+  <meta property="og:locale" content="sr_RS">
+  <meta property="og:title" content="{{META_TITLE}}">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
+  <meta property="og:url" content="{{CANONICAL}}">
+  <meta property="og:image" content="{{OG_IMAGE}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{META_TITLE}}">
+  <meta name="twitter:description" content="{{META_DESCRIPTION}}">
+  <meta name="twitter:image" content="{{OG_IMAGE}}">
+
+  <!-- START: head-assets -->
+  <!-- END: head-assets -->
+
+  <script type="application/ld+json">
+{{JSONLD}}
+  </script>
+</head>
+<body data-nav="proizvodi" data-header="solid">
+  <!-- START: gtm-body -->
+  <!-- END: gtm-body -->
+
+  <!-- START: header -->
+  <!-- END: header -->
+
+  <main id="main" style="--accent: {{ACCENT}};">
+    <section class="product-hero">
+      <div class="container">
+        <nav class="breadcrumb-nav" aria-label="Putanja">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ROOT}}index.html">Početna</a></li>
+            <li class="breadcrumb-item"><a href="{{ROOT}}proizvodi.html">Proizvodi</a></li>
+            <li class="breadcrumb-item"><a href="{{ROOT}}proizvodi.html#{{LINE_ID}}">{{LINE_LABEL}}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{NAME}}</li>
+          </ol>
+        </nav>
+
+        <div class="row g-5 align-items-start">
+          <!-- Slika proizvoda -->
+          <div class="col-lg-6">
+            <div class="product-gallery reveal">
+              <div class="product-image-frame">
+                <img src="{{ROOT}}{{IMAGE}}" alt="{{IMAGE_ALT}}" width="679" height="702" data-parallax="0.04">
+              </div>
+            </div>
+          </div>
+
+          <!-- Podaci o proizvodu -->
+          <div class="col-lg-6">
+            <div class="product-info">
+              <a class="product-line-chip" href="{{ROOT}}proizvodi.html#{{LINE_ID}}"><span class="dot" aria-hidden="true"></span>{{LINE_LABEL}}</a>
+              <h1>{{NAME}}</h1>
+              <div class="product-meta">
+                <span>{{PACKAGE}}</span>
+                <span>{{FLAVOR}}</span>
+              </div>
+
+              <!-- Naš kratak uvod (shortDescription) -->
+              <p class="lead">{{SHORT_DESCRIPTION}}</p>
+              <!-- Opis doslovno sa focusimcshop.rs (description) -->
+              <p class="product-description">{{DESCRIPTION}}</p>
+
+              <div class="order-box">
+                <a class="btn-brand btn-lg-brand" href="{{SHOP_URL}}" target="_blank" rel="noopener"
+                   data-track="naruci" data-product-name="{{NAME}}" data-product-line="{{LINE_ID}}">
+                  Naruči
+                  <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                </a>
+                <small class="shop-note text-center">Poručivanje se vrši na focusimcshop.rs</small>
+              </div>
+
+              <!-- Detalji (doslovno sa focusimcshop.rs) -->
+              <div class="product-details">
+                <div class="accordion" id="product-accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#acc-info" aria-expanded="true" aria-controls="acc-info">Dodatne informacije</button>
+                    </h2>
+                    <div id="acc-info" class="accordion-collapse collapse show">
+                      <div class="accordion-body">{{HEALTH_INFO}}</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc-ingredients" aria-expanded="false" aria-controls="acc-ingredients">Sastojci</button>
+                    </h2>
+                    <div id="acc-ingredients" class="accordion-collapse collapse">
+                      <div class="accordion-body">{{INGREDIENTS}}</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc-nutrition" aria-expanded="false" aria-controls="acc-nutrition">Aktivni sastojci i nutritivne informacije</button>
+                    </h2>
+                    <div id="acc-nutrition" class="accordion-collapse collapse">
+                      <div class="accordion-body">{{NUTRITION}}</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc-usage" aria-expanded="false" aria-controls="acc-usage">Način upotrebe</button>
+                    </h2>
+                    <div id="acc-usage" class="accordion-collapse collapse">
+                      <div class="accordion-body">{{USAGE}}</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc-warnings" aria-expanded="false" aria-controls="acc-warnings">Upozorenja</button>
+                    </h2>
+                    <div id="acc-warnings" class="accordion-collapse collapse">
+                      <div class="accordion-body"><p>{{WARNINGS}}</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Povezani proizvodi iz iste linije (pravi ih build.ps1) -->
+    <section class="section section-ice" aria-labelledby="related-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">{{LINE_LABEL}}</span>
+          <h2 id="related-title">Iz iste linije</h2>
+        </div>
+        <div class="row g-4">
+          <!-- START: related-products -->
+          <!-- END: related-products -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Lepljivo dugme za mobilni -->
+    <div class="sticky-order" aria-hidden="true">
+      <span>{{NAME}}</span>
+      <a class="btn-brand btn-sm-brand" href="{{SHOP_URL}}" target="_blank" rel="noopener" tabindex="-1"
+         data-track="naruci" data-product-name="{{NAME}}" data-product-line="{{LINE_ID}}">Naruči</a>
+    </div>
+  </main>
+
+  <!-- START: footer -->
+  <!-- END: footer -->
+
+  <!-- START: cookie-banner -->
+  <!-- END: cookie-banner -->
+
+  <!-- START: scripts -->
+  <!-- END: scripts -->
+</body>
+</html>

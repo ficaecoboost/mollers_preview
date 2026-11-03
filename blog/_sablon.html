@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+  ŠABLON BLOG ČLANKA - kako dodati novi članak:
+  1. Kopiraj ovaj fajl u blog/<slug-clanka>.html (mala slova, crtice, bez č/ć/š).
+  2. Zameni sve što je u [UGLASTIM ZAGRADAMA] (title, description, datum, tekst...).
+  3. Sliku snimi u assets/img/blog/<slug-clanka>.jpg (vidi README, deo "Slike").
+  4. Ako je članak preuzet sa focusimcshop.rs: canonical = adresa originala. Ako je nov: canonical = https://www.mollers.co.rs/blog/<slug>.html
+  5. Dodaj karticu članka na vrh liste u blog.html (i na početnu, ako je među 3 najnovija).
+  6. Pokreni tools/build.bat (ubacuje header/footer, ažurira sitemap).
+  Header, footer i ostalo između START/END oznaka ne menjaj ovde - build to popunjava.
+  Ovaj komentar obriši u novom članku.
+-->
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- START: gtm-head -->
+  <!-- END: gtm-head -->
+
+  <!-- SEO -->
+  <title>[NASLOV ČLANKA] | Möller's blog</title>
+  <meta name="description" content="[KRATAK OPIS, DO 155 ZNAKOVA]">
+  <link rel="canonical" href="[https://focusimcshop.rs/ORIGINAL/ ili https://www.mollers.co.rs/blog/SLUG.html]">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Möller's Srbija">
+  <meta property="og:locale" content="sr_RS">
+  <meta property="og:title" content="[NASLOV ČLANKA]">
+  <meta property="og:description" content="[KRATAK OPIS]">
+  <meta property="og:url" content="https://www.mollers.co.rs/blog/[SLUG].html">
+  <meta property="og:image" content="https://www.mollers.co.rs/assets/img/blog/[SLUG].jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="[NASLOV ČLANKA]">
+  <meta name="twitter:description" content="[KRATAK OPIS]">
+  <meta name="twitter:image" content="https://www.mollers.co.rs/assets/img/blog/[SLUG].jpg">
+
+  <!-- START: head-assets -->
+  <!-- END: head-assets -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "[NASLOV ČLANKA]",
+        "description": "[KRATAK OPIS]",
+        "image": "https://www.mollers.co.rs/assets/img/blog/[SLUG].jpg",
+        "datePublished": "[GGGG-MM-DD]",
+        "inLanguage": "sr-Latn",
+        "author": { "@type": "Organization", "name": "Möller's Srbija" },
+        "publisher": { "@type": "Organization", "name": "Möller's Srbija", "logo": { "@type": "ImageObject", "url": "https://www.mollers.co.rs/assets/img/logo-mollers.svg" } },
+        "mainEntityOfPage": "https://www.mollers.co.rs/blog/[SLUG].html"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Početna", "item": "https://www.mollers.co.rs/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mollers.co.rs/blog.html" },
+          { "@type": "ListItem", "position": 3, "name": "[NASLOV ČLANKA]", "item": "https://www.mollers.co.rs/blog/[SLUG].html" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body data-nav="blog">
+  <!-- START: gtm-body -->
+  <!-- END: gtm-body -->
+
+  <!-- START: header -->
+  <!-- END: header -->
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="aurora" aria-hidden="true"></div>
+      <div class="container">
+        <nav class="breadcrumb-nav" aria-label="Putanja">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Početna</a></li>
+            <li class="breadcrumb-item"><a href="../blog.html">Blog</a></li>
+            <li class="breadcrumb-item active" aria-current="page">[NASLOV ČLANKA]</li>
+          </ol>
+        </nav>
+        <span class="eyebrow">Blog</span>
+        <h1 style="max-width: 860px;">[NASLOV ČLANKA]</h1>
+        <div class="article-meta"><time datetime="[GGGG-MM-DD]">[D. mesec GGGG.]</time></div>
+      </div>
+    </section>
+
+    <section class="section pt-0">
+      <div class="container">
+        <div class="article-cover mx-auto" style="max-width: 920px;">
+          <img src="../assets/img/blog/[SLUG].jpg" alt="[OPIS SLIKE]" width="433" height="203">
+        </div>
+        <article class="prose mt-5">
+          <!-- TEKST ČLANKA: pasusi u <p>, podnaslovi u <h2>, linkovi ka našim stranicama sa ../ -->
+          <p>[PRVI PASUS]</p>
+          <h2>[PODNASLOV]</h2>
+          <p>[PASUS]</p>
+        </article>
+        <!-- Samo za članke preuzete sa focusimcshop.rs: -->
+        <p class="source-note">Članak je originalno objavljen na <a href="[https://focusimcshop.rs/ORIGINAL/]" target="_blank" rel="noopener">focusimcshop.rs</a>.</p>
+      </div>
+    </section>
+
+    <section class="section section-ice" aria-labelledby="article-products-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Möller's ponuda</span>
+          <h2 id="article-products-title">Möller's Omega-3 ulje jetre bakalara</h2>
+        </div>
+        <div class="row g-4">
+          <!-- START: products-ulje -->
+          <!-- END: products-ulje -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- START: footer -->
+  <!-- END: footer -->
+
+  <!-- START: cookie-banner -->
+  <!-- END: cookie-banner -->
+
+  <!-- START: scripts -->
+  <!-- END: scripts -->
+</body>
+</html>

@@ -1,0 +1,33 @@
+<script>
+  /* Consent Mode v2 - podrazumevano sve odbijeno osim neophodnog.
+     main.js menja ovo kad korisnik izabere u cookie baneru. */
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    functionality_storage: 'granted',
+    security_storage: 'granted',
+    wait_for_update: 500
+  });
+  (function () {
+    try {
+      var c = JSON.parse(localStorage.getItem('mollers_consent'));
+      if (c) gtag('consent', 'update', {
+        analytics_storage: c.statistics ? 'granted' : 'denied',
+        ad_storage: c.marketing ? 'granted' : 'denied',
+        ad_user_data: c.marketing ? 'granted' : 'denied',
+        ad_personalization: c.marketing ? 'granted' : 'denied'
+      });
+    } catch (e) {}
+  })();
+
+  /* GTM - upiši pravi ID umesto GTM-XXXXXXX i pokreni tools/build.ps1.
+     Dok je ID placeholder, GTM se NE učitava. */
+  var GTM_ID = 'GTM-XXXXXXX';
+  if (GTM_ID !== 'GTM-XXXXXXX') {
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',GTM_ID);
+  }
+</script>

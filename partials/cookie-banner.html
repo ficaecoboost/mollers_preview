@@ -1,0 +1,33 @@
+<!-- TODO: sadržaj od klijenta - tekst banera uskladiti sa politikom kolačića kad stigne -->
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-text" hidden>
+  <div class="container">
+    <div class="cookie-banner-inner">
+      <div class="cookie-banner-text">
+        <h2 id="cookie-title" tabindex="-1">Kolačići</h2>
+        <p id="cookie-text">Koristimo neophodne kolačiće da bi sajt radio. Uz vašu saglasnost koristimo i kolačiće za statistiku i marketing. Izbor možete promeniti bilo kada preko linka "Podešavanja kolačića" u dnu stranice. <a href="{{ROOT}}politika-kolacica.html">Politika kolačića</a></p>
+      </div>
+
+      <div class="cookie-actions">
+        <button type="button" class="btn-brand btn-sm-brand" data-consent="all">Prihvati sve</button>
+        <button type="button" class="btn-outline-brand btn-sm-brand" data-consent="necessary">Samo neophodni</button>
+        <button type="button" class="btn-outline-brand btn-sm-brand" data-consent="settings" aria-expanded="false">Podešavanja</button>
+      </div>
+    </div>
+
+    <div class="cookie-options" hidden>
+      <label class="cookie-option">
+        <input type="checkbox" checked disabled>
+        <span><strong>Neophodni</strong><span>Potrebni za osnovni rad sajta. Uvek uključeni.</span></span>
+      </label>
+      <label class="cookie-option">
+        <input type="checkbox" id="consent-statistics">
+        <span><strong>Statistika</strong><span>Pomažu nam da razumemo kako se sajt koristi (anonimno).</span></span>
+      </label>
+      <label class="cookie-option">
+        <input type="checkbox" id="consent-marketing">
+        <span><strong>Marketing</strong><span>Koriste se za prikaz relevantnih oglasa na drugim sajtovima.</span></span>
+      </label>
+      <button type="button" class="btn-brand btn-sm-brand" data-consent="save">Sačuvaj izbor</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+<!-- Uvodna animacija (prikazuje se samo kad <html> ima klasu has-intro, vidi partials/head-assets.html) -->
+<div class="intro" aria-hidden="true">
+  <div class="intro-stage">
+    <span class="intro-glow"></span>
+    <span class="intro-ring"></span>
+    <span class="intro-ring intro-ring-2"></span>
+    <svg class="intro-drop" viewBox="0 0 24 32">
+      <defs>
+        <radialGradient id="intro-oil" cx="35%" cy="60%" r="70%">
+          <stop offset="0" stop-color="#fff6c8"/>
+          <stop offset=".45" stop-color="#f2b705"/>
+          <stop offset="1" stop-color="#a86f00"/>
+        </radialGradient>
+      </defs>
+      <path d="M12 0C9 7 2 14 2 21a10 10 0 0 0 20 0C22 14 15 7 12 0z" fill="url(#intro-oil)"/>
+      <ellipse cx="8.5" cy="19" rx="2.2" ry="3.4" fill="#fff" opacity=".75"/>
+    </svg>
+    <img class="intro-logo" src="{{ROOT}}assets/img/logo-mollers.svg" alt="" width="148" height="50">
+  </div>
+</div>
+<a class="skip-link" href="#main">Pređi na sadržaj</a>
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="{{ROOT}}index.html" aria-label="Möller's - početna strana">
+      <img src="{{ROOT}}assets/img/logo-mollers.svg" alt="Möller's" width="148" height="50">
+    </a>
+
+    <nav id="main-nav" class="main-nav" aria-label="Glavni meni">
+      <a href="{{ROOT}}proizvodi.html" data-nav="proizvodi">Proizvodi</a>
+      <a href="{{ROOT}}omega-3.html" data-nav="omega-3">Omega-3</a>
+      <a href="{{ROOT}}vitamini.html" data-nav="vitamini">Vitamini</a>
+      <a href="{{ROOT}}mollers-prica.html" data-nav="prica">Möller's priča</a>
+      <a href="{{ROOT}}blog.html" data-nav="blog">Blog</a>
+      <a href="{{ROOT}}kontakt.html" data-nav="kontakt">Kontakt</a>
+      <a class="btn-brand nav-cta" href="{{SHOP:header-mobilni}}" target="_blank" rel="noopener" data-track="naruci">Naruči</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn-brand btn-sm-brand" href="{{SHOP:header}}" target="_blank" rel="noopener" data-track="naruci">
+        Naruči
+        <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Otvori meni">
+        <svg class="icon-open" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+        <svg class="icon-close" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" hidden><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>

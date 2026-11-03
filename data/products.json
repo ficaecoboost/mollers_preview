@@ -1,0 +1,410 @@
+{
+  "_napomena": "JEDINI izvor podataka o proizvodima. Posle svake izmene pokreni tools/build.ps1. Tekstovi (description, healthInfo, ingredients, nutrition, usage, warnings) su doslovno sa focusimcshop.rs. shortDescription je nas tekst (bez zdravstvenih tvrdnji). **tekst** = podebljano.",
+  "lines": [
+    {
+      "id": "ulje",
+      "label": "Ulje jetre bakalara",
+      "filterLabel": "Ulje",
+      "intro": "Prepoznatljiva zelena boca. Möller's ulje jetre bakalara iz Norveške, u tri ukusa.",
+      "image": "assets/img/products/omega-3-limun.png"
+    },
+    {
+      "id": "jelly-fish",
+      "label": "Jelly Fish gumene ribice",
+      "filterLabel": "Jelly Fish",
+      "intro": "Möller's omega-3 u obliku gumenih ribica, u četiri ukusa.",
+      "image": "assets/img/products/jelly-fish-jagoda.jpg"
+    },
+    {
+      "id": "kapsule",
+      "label": "Kapsule",
+      "filterLabel": "Kapsule",
+      "intro": "FORTE Omega-3, OMEGACORE i Total. Möller's u obliku kapsula.",
+      "image": "assets/img/products/forte-omega-3.png"
+    }
+  ],
+  "products": [
+    {
+      "slug": "omega-3-jabuka",
+      "name": "Möller's Omega-3 ulje jetre bakalara, ukus jabuke",
+      "cardName": "Omega-3 ulje jetre bakalara",
+      "flavor": "ukus jabuke",
+      "line": "ulje",
+      "accent": "#8BC53F",
+      "package": "250 ml",
+      "shortDescription": "Klasično Möller's ulje jetre bakalara iz Norveške, sa prirodnom aromom jabuke.",
+      "description": "**Möller’s Omega-3** ulje jetre bakalara sa ukusom jabuke je dodatak ishrani koji predstavlja izvor omega-3 masnih kiselina (eikozapentaenska kiselina: EPA i dokozaheksaenska kiselina: DHA) i vitamina A, D, i E.",
+      "healthInfo": [
+        "EPA i DHA doprinose normalnoj funkciji srca. Koristan efekat se postiže dnevnim unosom od 250 mg EPA i DHA. DHA doprinosi održavanju normalne funkcije mozga i vida. Koristan efekat se postiže dnevnim unosom od 250 mg DHA. Vitamin D doprinosi normalnoj funkciji imunog sistema i očuvanju kostiju. Vitamin A doprinosi održavanju normalnog vida i funkcije imunog sistema. Vitamin E doprinosi zaštiti ćelija od oksidativnog stresa.",
+        "Ne sme se prekoračiti ukupni dodatni dnevni unos od 5 g EPA i DHA."
+      ],
+      "ingredients": [
+        "Prečišćeno ulje jetre **bakalara (riba)**, prirodna aroma jabuke, DL-alfa-tokoferilacetat, antioksidans: ekstrakt bogat tokoferolima, retinil-palmitat, holekalciferol."
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "U 5 ml - 10 ml", "%NRV*"],
+          "rows": [
+            ["Omega-3 masne kiseline\n- DHA\n- EPA", "1,12-2,24 g\n- 510-1020 mg\n- 370-740 mg", "/"],
+            ["Vitamin E (α-TE**)", "3-6 mg", "25-50%"],
+            ["Vitamin A (RE***)", "250-500 μg", "31-62%"],
+            ["Vitamin D", "10-20 μg", "200-400%"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost; ** α-TE - alfa tokoferol ekvivalenti; ***RE - retinol ekvivalenti",
+      "usage": [
+        "Deca od 3 do 11 godina: 1 kafena kašika (5 ml) jednom dnevno.",
+        "Deca starija od 11 godina i odrasli: 2 kafene kašike (10 ml) jednom dnevno."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara. Ne koristiti istovremeno sa drugim proizvodima koji sadrže vitamin D.",
+      "image": "assets/img/products/omega-3-jabuka.png",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-ukus-jabuka/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-ukus-jabuka/"
+    },
+    {
+      "slug": "omega-3-tutti-frutti",
+      "name": "Möller's Omega-3 ulje jetre bakalara, ukus tutti-frutti",
+      "cardName": "Omega-3 ulje jetre bakalara",
+      "flavor": "ukus tutti-frutti",
+      "line": "ulje",
+      "accent": "#3B7DD8",
+      "package": "250 ml",
+      "shortDescription": "Möller's ulje jetre bakalara sa voćnom tutti-frutti aromom.",
+      "description": "**Möller’s Omega-3 ulje jetre bakalara sa tutti-frutti ukusom** je dodatak ishrani koji predstavlja izvor omega-3 masnih kiselina (eikozapentaenska kiselina: EPA i dokozaheksaenska kiselina: DHA) i vitamina A, D, i E.",
+      "healthInfo": [
+        "EPA i DHA doprinose normalnoj funkciji srca. Koristan efekat se postiže dnevnim unosom od 250 mg EPA i DHA. DHA doprinosi održavanju normalne funkcije mozga i vida. Koristan efekat se postiže dnevnim unosom od 250 mg DHA. Vitamin D doprinosi normalnoj funkciji imunog sistema i očuvanju kostiju. Vitamin A doprinosi održavanju normalnog vida i funkcije imunog sistema. Vitamin E doprinosi zaštiti ćelija od oksidativnog stresa.",
+        "Ne sme se prekoračiti ukupni dodatni dnevni unos od 5 g EPA i DHA."
+      ],
+      "ingredients": [
+        "Prečišćeno ulje jetre **bakalara (riba)**, prirodna aroma voća, DL-alfa-tokoferilacetat, antioksidans: ekstrakt bogat tokoferolima, retinil-palmitat, holekalciferol."
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "U 5 ml - 10 ml", "%NRV*"],
+          "rows": [
+            ["Omega-3 masne kiseline\n- DHA\n- EPA", "1,12-2,24 g\n- 510-1020 mg\n- 370-740 mg", "/"],
+            ["Vitamin E (α-TE**)", "3-6 mg", "25-50%"],
+            ["Vitamin A (RE***)", "250-500 μg", "31-62%"],
+            ["Vitamin D", "10-20 μg", "200-400%"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost; ** α-TE - alfa tokoferol ekvivalenti; ***RE - retinol ekvivalenti",
+      "usage": [
+        "Deca od 3 do 11 godina: 1 kafena kašika (5 ml) jednom dnevno.",
+        "Deca starija od 11 godina i odrasli: 2 kafene kašike (10 ml) jednom dnevno."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara. Ne koristiti istovremeno sa drugim proizvodima koji sadrže vitamin D.",
+      "image": "assets/img/products/omega-3-tutti-frutti.png",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-kids-250ml/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-kids-250ml/"
+    },
+    {
+      "slug": "omega-3-limun",
+      "name": "Möller's Omega-3 ulje jetre bakalara, ukus limuna",
+      "cardName": "Omega-3 ulje jetre bakalara",
+      "flavor": "ukus limuna",
+      "line": "ulje",
+      "accent": "#F2B705",
+      "package": "250 ml",
+      "shortDescription": "Möller's ulje jetre bakalara sa prirodnom aromom limuna.",
+      "description": "**Möller’s Omega-3** ulje jetre bakalara sa ukusom limuna je dodatak ishrani koji predstavlja izvor omega-3 masnih kiselina (eikozapentaenska kiselina: EPA i dokozaheksaenska kiselina: DHA) i vitamina A, D, i E.",
+      "healthInfo": [
+        "EPA i DHA doprinose normalnoj funkciji srca. Koristan efekat se postiže dnevnim unosom od 250 mg EPA i DHA. DHA doprinosi održavanju normalne funkcije mozga i vida. Koristan efekat se postiže dnevnim unosom od 250 mg DHA. Vitamin D doprinosi normalnoj funkciji imunog sistema i očuvanju kostiju. Vitamin A doprinosi održavanju normalnog vida i funkcije imunog sistema. Vitamin E doprinosi zaštiti ćelija od oksidativnog stresa.",
+        "Ne sme se prekoračiti ukupni dodatni dnevni unos od 5 g EPA i DHA."
+      ],
+      "ingredients": [
+        "Prečišćeno ulje jetre bakalara (riba), prirodna aroma limuna, DL-tokoferilacetat, antioksidans: ekstrakt bogat tokoferolima, retinil-palmitat, holekalciferol."
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "U 5 ml - 10 ml", "%NRV*"],
+          "rows": [
+            ["Omega-3 masne kiseline\n- DHA\n- EPA", "1,11-2,22 g\n- 500-1000 mg\n- 360-720 mg", "/"],
+            ["Vitamin E (α-TE**)", "3-6 mg", "25-50%"],
+            ["Vitamin A (RE***)", "250-500 μg", "31-62%"],
+            ["Vitamin D", "10-20 μg", "200-400%"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost; ** α-TE - alfa tokoferol ekvivalenti; ***RE - retinol ekvivalenti",
+      "usage": [
+        "Deca od 3 do 11 godina: 1 kafena kašika (5 ml) jednom dnevno.",
+        "Deca starija od 11 godina i odrasli: 2 kafene kašike (10 ml) jednom dnevno."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara. Ne koristiti istovremeno sa drugim proizvodima koji sadrže vitamin D.",
+      "image": "assets/img/products/omega-3-limun.png",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-citron/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-citron/"
+    },
+    {
+      "slug": "jelly-fish-kola",
+      "name": "Möller's Omega-3 Jelly Fish, ukus kole",
+      "cardName": "Omega-3 Jelly Fish gumene ribice",
+      "flavor": "ukus kole",
+      "line": "jelly-fish",
+      "accent": "#A0522D",
+      "package": "36 gumenih ribica",
+      "shortDescription": "Möller's Omega-3 gumene ribice sa ukusom kole, bez dodatog šećera.",
+      "description": "**Möller’s Omega-3 Jelly Fish - gumene ribice, sa ukusom kole** je dodatak ishrani sa zaslađivačima, bez dodatog šećera. Predstavlja **izvor omega-3 masnih kiselina (EPA i DHA) i vitamina D**.",
+      "healthInfo": [
+        "DHA doprinosi održavanju normalne funkcije mozga i vida. Koristan učinak se postiže dnevnim unosom od 250 mg DHA. EPA i DHA doprinose normalnoj funkciji srca. Koristan učinak se postiže dnevnim unosom od 250 mg EPA i DHA. Vitamin D doprinosi normalnoj funkciji imunog sistema, održavanju normalnih kostiju i zuba, i potreban je za normalan rast i razvoj kostiju kod dece."
+      ],
+      "ingredients": [
+        "Sredstva za povećanje zapremine: ksilitol i sorbitol; koncentrat ribljeg ulja; prečišćena voda; želatin (goveđi); regulatori kiselosti: trinatrijum citrat i jabučna kiselina; prirodne arome kole; boja: karamel amonijačni; antioksidans: askorbinska kiselina; holekalciferol."
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "1-2 ribice", "%NRV*"],
+          "rows": [
+            ["Omega-3 masne kiseline\n- DHA\n- EPA", "185-370 mg\n- 140-280 mg\n- 28-56 mg", "/"],
+            ["Vitamin D", "5 - 10 μg", "100-200 %"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost",
+      "usage": [
+        "Deca starija od 3 godine i odrasli: 2 gumene ribice dnevno."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara. Ne koristiti istovremeno sa drugim proizvodima koji sadrže vitamin D.",
+      "image": "assets/img/products/jelly-fish-kola.png",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-jelly-fish-kola/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-jelly-fish-kola/"
+    },
+    {
+      "slug": "jelly-fish-jagoda",
+      "name": "Möller's Omega-3 Jelly Fish, ukus jagode",
+      "cardName": "Omega-3 Jelly Fish gumene ribice",
+      "flavor": "ukus jagode",
+      "line": "jelly-fish",
+      "accent": "#E2343B",
+      "package": "36 gumenih ribica",
+      "shortDescription": "Möller's Omega-3 gumene ribice sa ukusom jagode, bez dodatog šećera.",
+      "description": "**Möller’s Omega-3 Jelly Fish - gumene ribice, sa ukusom jagode** je dodatak ishrani sa zaslađivačima, bez dodatog šećera. Predstavlja **izvor omega-3 masnih kiselina (EPA i DHA) i vitamina D**.",
+      "healthInfo": [
+        "DHA doprinosi održavanju normalne funkcije mozga i vida. Koristan učinak se postiže dnevnim unosom od 250 mg DHA. EPA i DHA doprinose normalnoj funkciji srca. Koristan učinak se postiže dnevnim unosom od 250 mg EPA i DHA. Vitamin D doprinosi normalnoj funkciji imunog sistema, održavanju normalnih kostiju i zuba, i potreban je za normalan rast i razvoj kostiju kod dece."
+      ],
+      "ingredients": [
+        "Sredstva za povećanje zapremine: ksilitol i sorbitol; koncentrat ribljeg ulja; prečišćena voda; želatin (goveđi); regulatori kiselosti: trinatrijum citrat i jabučna kiselina; prirodne arome jagode i limete; antioksidans: askorbinska kiselina; boja: karminska kiselina; holekalciferol."
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "1-2 ribice", "%NRV*"],
+          "rows": [
+            ["Omega-3 masne kiseline\n- DHA\n- EPA", "185-370 mg\n- 140-280 mg\n- 28-56 mg", "/"],
+            ["Vitamin D", "5 - 10 μg", "100-200 %"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost",
+      "usage": [
+        "Deca starija od 3 godine i odrasli: 2 gumene ribice dnevno."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara. Ne koristiti istovremeno sa drugim proizvodima koji sadrže vitamin D.",
+      "image": "assets/img/products/jelly-fish-jagoda.jpg",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-jelly-fish-jagoda/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-jelly-fish-jagoda/"
+    },
+    {
+      "slug": "jelly-fish-narandza",
+      "name": "Möller's Omega-3 Jelly Fish, ukus narandže",
+      "cardName": "Omega-3 Jelly Fish gumene ribice",
+      "flavor": "ukus narandže",
+      "line": "jelly-fish",
+      "accent": "#F28C1E",
+      "package": "36 gumenih ribica",
+      "shortDescription": "Möller's Omega-3 gumene ribice sa ukusom narandže, bez dodatog šećera.",
+      "description": "**Möller’s Omega-3 Jelly Fish - gumene ribice, sa ukusom narandže** je dodatak ishrani sa zaslađivačima, bez dodatog šećera. Predstavlja **izvor omega-3 masnih kiselina (EPA i DHA) i vitamina D**.",
+      "healthInfo": [
+        "DHA doprinosi održavanju normalne funkcije mozga i vida. Koristan učinak se postiže dnevnim unosom od 250 mg DHA. EPA i DHA doprinose normalnoj funkciji srca. Koristan učinak se postiže dnevnim unosom od 250 mg EPA i DHA. Vitamin D doprinosi normalnoj funkciji imunog sistema, održavanju normalnih kostiju i zuba, i potreban je za normalan rast i razvoj kostiju kod dece."
+      ],
+      "ingredients": [
+        "Sredstva za povećanje zapremine: ksilitol i sorbitol; koncentrat ribljeg ulja; prečišćena voda; želatin (goveđi); regulatori kiselosti: trinatrijum-citrat i jabučna kiselina; prirodne arome pomorandže i limuna; holekalciferol; boja: karoteni."
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "1-2 ribice", "%NRV*"],
+          "rows": [
+            ["Omega-3 masne kiseline\n- DHA\n- EPA", "185-370 mg\n- 140-280 mg\n- 28-56 mg", "/"],
+            ["Vitamin D", "5 - 10 μg", "100-200 %"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost",
+      "usage": [
+        "Deca starija od 3 godine i odrasli: 2 gumene ribice dnevno."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara. Ne koristiti istovremeno sa drugim proizvodima koji sadrže vitamin D.",
+      "image": "assets/img/products/jelly-fish-narandza.jpg",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-jelly-fish-narandza/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-jelly-fish-narandza/"
+    },
+    {
+      "slug": "jelly-fish-marakuja",
+      "name": "Möller's Omega-3 Jelly Fish, ukus marakuje",
+      "cardName": "Omega-3 Jelly Fish gumene ribice",
+      "flavor": "ukus marakuje",
+      "line": "jelly-fish",
+      "accent": "#9B4DCA",
+      "package": "27 gumenih ribica",
+      "shortDescription": "Möller's Omega-3 gumene ribice sa ukusom marakuje, jedna ribica dnevno.",
+      "description": "**Möller’s Omega-3 Jelly Fish - gumene ribice sa ukusom marakuje** je dodatak ishrani koji **predstavlja izvor omega-3 masnih kiselina (EPA i DHA) i vitamina D**.",
+      "healthInfo": [
+        "DHA doprinosi održavanju normalne funkcije mozga i vida. Koristan učinak se postiže dnevnim unosom od 250 mg DHA. EPA i DHA doprinose normalnoj funkciji srca. Koristan učinak se postiže dnevnim unosom od 250 mg EPA i DHA. Vitamin D doprinosi normalnoj funkciji imunog sistema, održavanju normalnih kostiju i zuba, i potreban je za normalan rast i razvoj kostiju kod dece. Ne sme se prekoračiti ukupni dodatni dnevni unos od 5 g EPA i DHA."
+      ],
+      "ingredients": [
+        "Koncentrat ribljeg ulja; sredstva za povećanje zapremine: ksilitol i sorbitol; prečišćena voda; želatin (goveđi); regulatori kiselosti: trinatrijum citrat i jabučna kiselina; prirodne arome limete i marakuje; antioksidans: askorbinska kiselina; boja: ekstrakt paprike; zaslađivač: steviol glikozidi; holekalciferol"
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "1 ribica", "%NRV*"],
+          "rows": [
+            ["Omega-3 masne kiseline\n- DHA\n- EPA", "375 mg\n- 280 mg\n- 56 mg", "/"],
+            ["Vitamin D", "10 μg", "200%"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost",
+      "usage": [
+        "Deca starija od 3 godine i odrasli: 1 gumena ribica dnevno."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara. Ne koristiti istovremeno sa drugim proizvodima koji sadrže vitamin D.",
+      "image": "assets/img/products/jelly-fish-marakuja.png",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-jelly-fish-gumene-ribice-ukus-marakuje/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-omega-3-jelly-fish-gumene-ribice-ukus-marakuje/"
+    },
+    {
+      "slug": "forte-omega-3",
+      "name": "Möller's FORTE Omega-3",
+      "cardName": "FORTE Omega-3",
+      "flavor": "kapsule",
+      "line": "kapsule",
+      "accent": "#D4A72C",
+      "package": "112 kapsula ili 30 kapsula",
+      "shortDescription": "Möller's omega-3 u obliku kapsula, u pakovanju od 112 ili 30 kapsula.",
+      "description": "**Möller’s FORTE Omega-3** je dodatak ishrani koji **predstavlja izvor omega-3 masnih kiselina (EPA i DHA) i vitamina D i E**.",
+      "healthInfo": [
+        "Vitamin D doprinosi normalnoj funkciji imunog sistema i potreban je za normalan rast i razvoj kostiju kod dece. Vitamin E doprinosi zaštiti ćelija od oksidativnog stresa. DHA doprinosi održavanju normalne funkcije mozga i vida (koristan učinak se postiže dnevnim unosom od 250 mg DHA). EPA i DHA doprinose normalnoj funkciji srca (koristan učinak se postiže dnevnim unosom od 250 mg EPA i DHA). Ne sme se prekoračiti ukupni dodatni dnevni unos od 5 g EPA i DHA."
+      ],
+      "ingredients": [
+        "Koncentrovano riblje ulje; prečišćeno ulje jetre bakalara (riba); kapsula (želatin, voda); humektant: glicerol; DL-α-tokoferilacetat; holekalciferol; antioksidans: ekstrakt bogat tokoferolima"
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "1-2 kapsule", "%NRV*"],
+          "rows": [
+            ["Omega-3 masne kiseline\n- DHA\n- EPA", "335-670 mg\n- 125-250 mg\n- 155-310 mg", "/"],
+            ["Vitamin E α-TE**", "5-10 mg α-TE", "42-83%"],
+            ["Vitamin D", "5-10 μg", "100-200%"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost; ** α-TE - alfa tokoferol ekvivalenti",
+      "usage": [
+        "Deca starija od 6 godina i odrasli: popiti 2 kapsule dnevno sa punom čašom vode."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara. Ne koristiti istovremeno sa drugim proizvodima koji sadrže vitamin D.",
+      "image": "assets/img/products/forte-omega-3.png",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-forte-omega-3-112-kapsula/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-forte-omega-3-112-kapsula/"
+    },
+    {
+      "slug": "omegacore",
+      "name": "Möller's OMEGACORE",
+      "cardName": "OMEGACORE",
+      "flavor": "kapsule",
+      "line": "kapsule",
+      "accent": "#2A8C9C",
+      "package": "60 kapsula",
+      "shortDescription": "Koncentrovano riblje ulje u kapsulama, za odrasle i decu stariju od 11 godina.",
+      "description": "**Möller’s OMEGACORE** je dodatak ishrani koji **predstavlja izvor omega-3 masnih kiselina: eikozapentaenska kiselina** - EPA i dokozaheksaenska kiselina - **DHA**.",
+      "healthInfo": [
+        "DHA i EPA doprinose održavanju normalnog krvnog pritiska (koristan efekat se postiže dnevnim unosom 3 g DHA i EPA). DHA i EPA doprinose održavanju normalnog nivoa triglicerida u krvi (koristan efekat se postiže dnevnim unosom 2 g DHA i EPA). Ne sme se prekoračiti ukupni dodatni dnevni unos od 5 g EPA i DHA."
+      ],
+      "ingredients": [
+        "Koncentrovano riblje ulje; kapsula (želatin); humektans: glicerol; prečišćena voda; antioksidans: ekstrakt bogat tokoferolima"
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "1-2 kapsule*", "2-6 kapsula*"],
+          "rows": [
+            ["Koncentrovano **riblje** ulje\nod čega omega-3 masne kiseline:\n- DHA\n- EPA", "1-2 g\n660-1320 mg\n- 240-480 mg\n- 320-640 mg", "2-6 g\n1,32-3,96 g\n- 0,48-1,44 g\n- 0,64-1,92 g"]
+          ]
+        }
+      ],
+      "nutritionNote": "*nutritivna referentna vrednost nije definisana",
+      "usage": [
+        "Deca starija od 11 godina i odrasli: popiti 2 do 6 kapsula dnevno sa punom čašom vode."
+      ],
+      "warnings": "Preporučene dnevne doze ne smeju se prekoračiti. Proizvod nije namenjen osobama koje su preosetljive na ribu ili bilo koji sastojak proizvoda kao ni osobama sa hemofilijom. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara.",
+      "image": "assets/img/products/omegacore.png",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-omegacore/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-omegacore/"
+    },
+    {
+      "slug": "total",
+      "name": "Möller's Total",
+      "cardName": "Total",
+      "flavor": "kapsule + tablete",
+      "line": "kapsule",
+      "accent": "#4CAF50",
+      "package": "14 kapsula + 14 tableta",
+      "shortDescription": "Dva proizvoda u jednom pakovanju: kapsule sa ribljim uljem i tablete sa vitaminima, mineralima i biljnim ekstraktima.",
+      "description": "**Möller’s Total** je dodatak ishrani koji u istom pakovanju **sadrži dva proizvoda: kapsule na bazi ribljeg ulja sa omega-3 masnim kiselinama, i tablete sa vitaminima, mineralima i biljnim ekstraktima**.",
+      "healthInfo": [
+        "DHA doprinosi održavanju normalne funkcije mozga i vida. EPA i DHA doprinose normalnoj funkciji srca. Koristan efekat se postiže dnevnim unosom od 250 mg DHA. Koristan efekat se postiže dnevnim unosom od 250 mg EPA i DHA. Gvožđe, folna kiselina, i magnezijum doprinose smanjenju umora i iscrpljenosti. Vitamini A, D i C doprinose normalnoj funkciji imunog sistema. Vitamin E doprinosi zaštiti ćelija od oksidativnog stresa.",
+        "Ne sme se prekoračiti ukupni dodatni dnevni unos od 5 g EPA i DHA."
+      ],
+      "ingredients": [
+        "**Kapsula**: riblje ulje; kapsula (želatin), humektans: glicerol; prečišćena voda; antioksidans: ekstrakt bogat tokoferolima; holekalciferol.",
+        "**Tableta**: sredstva za povećanje zapremine: dikalcijum-fosfat, mikrokristalna celuloza, trikalcijum-fosfat, unakrsno vezana natrijum karboksimetilceluloza; magnezijum-hidroksid, suvi ekstrakt korena korejskog žen-šena (Panax ginseng) 3-4:1, L-askorbinska kiselina, DL-α-tokoferilacetat, sredstva protiv zgrudnjavanja: magnezijumove soli masnih kiselina, hidroksipropilmetilceluloza, šelak, talk, modifikovani skrob, hidroksipropilceluloza, karnauba vosak; gvožđe (II)-fumarat, nikotinamid, cink-oksid, suvi ekstrakt korena rodiole (Rhodiola rosea) standardizovan 3% rozavina i 1% salidrozida, prah lista i cvetova gloga (Crataegus monogyna), kalcijum-D-pantotenat, mangan(II)-sulfat, humektant: glicerol; bakar(II)-sulfat, retinil-acetat, cijanokobalamin, piridoksin-hidrohlorid, riboflavin, tiamin-mononitrat, pteroilmonoglutaminska kiselina, hrom(III)-hlorid, natrijum-molibdat, natrijum-selenit, kalijum jodid."
+      ],
+      "nutrition": [
+        {
+          "head": ["Aktivni sastojci:", "1 kapsula", "%NRV*"],
+          "rows": [
+            ["Riblje ulje\n- Omega-3 masne kiseline, od kojih:\n- EPA\n- DHA", "0,6 g\n375 mg\n180 mg\n135 mg", "/\n/"],
+            ["Vitamin D", "6,67 μg", "133%"]
+          ]
+        },
+        {
+          "head": ["Aktivni sastojci:", "1 tableta", "%NRV*"],
+          "rows": [
+            ["Suvi ekstrakt korena korejskog žen-šena (Panax ginseng) 3-4:1", "100 mg", "/"],
+            ["Suvi ekstrakt korena rodiole (Rhodiola rosea) standardizovan na 3% rozavina i 1% salidrozida", "10 mg", "/"],
+            ["List sa cvetom gloga (Crataegus monogyna)", "10 mg", "/"],
+            ["Vitamin A (retinil-acetat)", "250 μg RE**", "31%"],
+            ["Vitamin D (holekalciferol)", "13,4 μg", "268%"],
+            ["Vitamin E (DL-α-tokoferilacetat)", "12 mg α-TE***", "100%"],
+            ["Vitamin C (L-askorbinska kiselina)", "80 mg", "100%"],
+            ["Vitamin B1 (tiamin-mononitrat)", "1,1 mg", "100%"],
+            ["Vitamin B2 (riboflavin)", "1,4 mg", "100%"],
+            ["Vitamin B3 (nikotinamid)", "16 mg", "100%"],
+            ["Vitamin B6 (piridoksin-hidrohlorid)", "1,4 mg", "100%"],
+            ["Folna kiselina (pteroilmonoglutaminska kiselina)", "200 μg", "100%"],
+            ["Vitamin B12 (cijanokobalamin)", "2,5 μg", "100%"],
+            ["Pantotenska kiselina (kalcijum-D-pantotenat)", "6 mg", "100%"],
+            ["Magnezijum (magnezijum-hidroksid)", "85mg", "23%"],
+            ["Gvožđe (gvožđe (II)-fumarat)", "7 mg", "50%"],
+            ["Cink (cink-oksid)", "10 mg", "100%"],
+            ["Bakar (bakar(II)-sulfat)", "1 mg", "100%"],
+            ["Mangan (mangan(II)-sulfat)", "2 mg", "100%"],
+            ["Selen (natrijum-selenit)", "55 μg", "100%"],
+            ["Hrom (hrom (III)-hlorid)", "40 μg", "100%"],
+            ["Molibden (natrijum-molibdat)", "50 μg", "100%"],
+            ["Jod (kalijum-jodid)", "22,5 μg", "15%"]
+          ]
+        }
+      ],
+      "nutritionNote": "* NRV - nutritivna referentna vrednost; ** RE: retinol ekvivalenti; ***α-TE - alfa tokoferol ekvivalenti",
+      "usage": [
+        "Odrasli: 1 kapsula i 1 tableta dnevno. Preporučuje se kontinuirana upotreba u trajanju od 3 meseca, nakon koje je potrebno napraviti pauzu od 2 do 3 nedelje pre sledeće upotrebe."
+      ],
+      "warnings": "Preporučena dnevna doza se ne sme prekoračiti. Dodaci ishrani se ne mogu koristiti kao zamena za raznovrsnu i uravnoteženu ishranu i zdrav način života. Proizvod nije namenjen osobama mlađim od 18 godina, osobama preosetljivim na ribu ili na bilo koji sastojak proizvoda, kao ni osobama sa hemofilijom. Obustaviti primenu proizvoda 7 dana pre operativnog zahvata. Oprez i prethodna konsultacija sa lekarom je neophodna kod osoba koje su na antitrombotskoj terapiji. Trudnicama i dojiljama se pre primene proizvoda preporučuje savet lekara.",
+      "image": "assets/img/products/total.png",
+      "shopUrl": "https://focusimcshop.rs/proizvod/mollers-total/",
+      "sourceUrl": "https://focusimcshop.rs/proizvod/mollers-total/"
+    }
+  ]
+}

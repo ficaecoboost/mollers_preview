@@ -1,0 +1,11 @@
+<!-- Izvor: https://focusimcshop.rs/sta-su-omega-3-masne-kiseline/ | preuzeto: 2026-10-26 | tekst je doslovan, samo je uklonjen meni/footer sajta -->
+
+## Šta su Omega-3 masne kiseline?
+
+Da krenemo od početka i probamo da razjasnimo priču o masnim kiselinama i mastima, jer zahvaljujući raznim trendovima, tokom vremena termin “masti” je došao na loš glas.
+Dakle, šta su masne kiseline? Postoje dve glavne vrste masnih kiselina: zasićene masti i nezasićene masti. Nezasićene masti se razlažu na polinezasićene i mononezasićene masti, što su izrazi koje obično vidite na etiketama.
+Zasićene masti su poznate i kao “loše” masti jer povećavaju rizik od određenih bolesti kao što su bolesti srca. Nezasićene masti (polinezasićene i mononezasićene) se smatraju “dobrim” mastima jer podržavaju zdravlje srca i drugih sistema i organa, kada se koriste umereno.
+Omega-3 masne kiseline su “zdrave” [->/omega-3] odnosno polinezasićene masti koje obavljaju važne funkcije u našem telu. One pomažu svim ćelijama u telu da funkcionišu kako treba, podržavajući interakcije između ćelija. Pored toga, daju energiju (kalorije) i pomažu zdravlje mnogih telesnih sistema, što uključuje kardiovaskularni sistem, endokrini, imuni, nervni…
+Kako čovekov organizam ne može da proizvede količinu omega-3 koja nam je potrebna, ove esencijalne hranljive sastojke moramo unositi putem ishrane.
+Postoje tri glavne vrste omega-3 masnih kiselina: DHA i EPA, dve “morske” jer se nalaze u ribi, i jedna “biljna” ALA. Kada dobijete ALA kroz hranu (orahe, lan, čija seme…), vaše telo može da pretvori deo ALA u EPA, a zatim u DHA, ali ovaj proces obezbeđuje samo malu količinu EPA i DHA. Dakle, direktni izvori EPA i DHA u ishrani su neophodni a njih je najbolje pronaći u ribi, plodovima mora i ribljem ulju (posebno se preporučuje masna riba hladnih mora).
+Ukoliko ne volite ribu ili ste vegetarijanci ili iz bilo kog razloga spadate u osobe s jednoličnim načinom prehrane, možete imati problema sa zadovoljenjem potrebne doze omega-3 masnih kiselina. U tom slučaju, korisno je uzimati dodatke ishrani sa omega-3. Naša preporuka su Möller’s Omega-3 ulja [->/prodavnica] čiji je osnovni sastojak prečišćeno ulje jetre bakalara. U pitanju je dijetetski suplement koji predstavlja izvor omega-3 masnih kiselina (EPA i DHA) i vitamina A, D i E.

@@ -1,0 +1,20 @@
+<link rel="icon" href="{{ROOT}}assets/img/favicon.svg" type="image/svg+xml">
+<!-- Fontovi se ne "preload"-uju: preload fonta zahteva CORS, a on puca kad se sajt otvori direktno iz foldera (file://) -->
+<link rel="stylesheet" href="{{ROOT}}assets/vendor/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="{{ROOT}}assets/css/style.css">
+<meta name="theme-color" content="#21453a">
+<script>
+  /* Uvodna animacija (kap ulja + logo, 1 s): pri svakom učitavanju (i osvežavanju),
+     OSIM kad se dolazi klikom na link unutar sajta (main.js tada postavlja "mollers_nav").
+     Ne prikazuje se ni uz sistemsko "smanji animacije". Za isključivanje: obriši ovaj <script>. */
+  (function () {
+    var internal = false;
+    try {
+      internal = sessionStorage.getItem('mollers_nav') === '1';
+      sessionStorage.removeItem('mollers_nav');
+    } catch (e) {}
+    if (!internal && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('has-intro');
+    }
+  })();
+</script>
