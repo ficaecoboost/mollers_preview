@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GENERISANO skriptom tools/build.ps1 - ne menjati ručno -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.mollers.co.rs/blog.html</loc><lastmod>2026-10-27</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.mollers.co.rs/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.mollers.co.rs/kontakt.html</loc><lastmod>2026-10-27</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.mollers.co.rs/mollers-prica.html</loc><lastmod>2026-10-27</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.mollers.co.rs/omega-3.html</loc><lastmod>2026-10-27</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/forte-omega-3.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/jelly-fish-jagoda.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/jelly-fish-kola.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/jelly-fish-marakuja.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/jelly-fish-narandza.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/omega-3-jabuka.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/omega-3-limun.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/omega-3-tutti-frutti.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/omegacore.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/proizvodi/total.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.mollers.co.rs/vitamini.html</loc><lastmod>2026-10-27</lastmod><priority>0.6</priority></url>
+</urlset>

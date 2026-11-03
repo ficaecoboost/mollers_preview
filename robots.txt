@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /partials/
+Disallow: /tools/
+Disallow: /content/
+Disallow: /brand/
+Disallow: /proizvodi/_sablon.html
+Disallow: /blog/_sablon.html
+
+Sitemap: https://www.mollers.co.rs/sitemap.xml

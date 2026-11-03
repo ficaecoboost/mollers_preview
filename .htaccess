@@ -1,0 +1,70 @@
+# ==========================================================================
+# Möller's Srbija - .htaccess (Apache / LiteSpeed, cPanel)
+# Spisak starih adresa i razlozi: redirect-map.csv
+# ==========================================================================
+
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # --- 1. Uvek https i www --------------------------------------------------
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^(.*)$ https://www.mollers.co.rs/$1 [R=301,L]
+
+  # --- 2. Radni folderi i fajlovi nisu javni ----------------------------------
+  RewriteRule ^(tools|partials|content|brand)(/|$) - [F,L]
+  RewriteRule \.(md|ps1|bat|csv)$ - [F,L,NC]
+
+  # --- 3. Stara korpa (bilo koji */cart.php) -----------------------------------
+  RewriteRule (^|/)cart\.php$ /proizvodi.html [R=301,L,NC]
+
+  # --- 4. Stare stranice proizvoda -> nove stranice proizvoda -----------------
+  RewriteRule ^(nasi-proizvodi|shop)/1/?$  /proizvodi/omega-3-limun.html [R=301,L,NC]
+  RewriteRule ^(nasi-proizvodi|shop)/2/?$  /proizvodi/omega-3-jabuka.html [R=301,L,NC]
+  RewriteRule ^(nasi-proizvodi|shop)/4/?$  /proizvodi/omega-3-tutti-frutti.html [R=301,L,NC]
+  RewriteRule ^(nasi-proizvodi|shop)/6/?$  /proizvodi/total.html [R=301,L,NC]
+  RewriteRule ^(nasi-proizvodi|shop)/42/?$ /proizvodi/jelly-fish-kola.html [R=301,L,NC]
+  RewriteRule ^(nasi-proizvodi|shop)/43/?$ /proizvodi/jelly-fish-narandza.html [R=301,L,NC]
+  RewriteRule ^(nasi-proizvodi|shop)/44/?$ /proizvodi/jelly-fish-jagoda.html [R=301,L,NC]
+  # Ostali stari proizvodi i liste proizvoda
+  RewriteRule ^(nasi-proizvodi|shop)(/.*)?$ /proizvodi.html [R=301,L,NC]
+
+  # --- 5. Stare sadržajne stranice ------------------------------------------
+  RewriteRule ^(dha-epa|sta-je-omega-3)/?$          /omega-3.html [R=301,L,NC]
+  RewriteRule ^vitamini-a-d-e/?$                    /vitamini.html [R=301,L,NC]
+  RewriteRule ^(istorijat|o-nama)/?$                /mollers-prica.html [R=301,L,NC]
+  RewriteRule ^(kontakt|pitanja-i-odgovori)/?$      /kontakt.html [R=301,L,NC]
+  RewriteRule ^(politika-privatnosti|uslovi-koriscenja)/?$ /politika-privatnosti.html [R=301,L,NC]
+  RewriteRule ^vesti(/.*)?$                         /blog.html [R=301,L,NC]
+  RewriteRule ^izaberi-zemlju/?$                    / [R=301,L,NC]
+  RewriteRule ^Design/                              / [R=301,L,NC]
+</IfModule>
+
+# --- Kompresija ---------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/xml application/xml text/plain
+</IfModule>
+
+# --- Keširanje (slike i fontovi dugo, HTML kratko) ---------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# --- Bezbednosna zaglavlja -------------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>

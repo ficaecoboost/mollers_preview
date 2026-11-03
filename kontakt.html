@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- START: gtm-head -->
+<script>
+  /* Consent Mode v2 - podrazumevano sve odbijeno osim neophodnog.
+     main.js menja ovo kad korisnik izabere u cookie baneru. */
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    functionality_storage: 'granted',
+    security_storage: 'granted',
+    wait_for_update: 500
+  });
+  (function () {
+    try {
+      var c = JSON.parse(localStorage.getItem('mollers_consent'));
+      if (c) gtag('consent', 'update', {
+        analytics_storage: c.statistics ? 'granted' : 'denied',
+        ad_storage: c.marketing ? 'granted' : 'denied',
+        ad_user_data: c.marketing ? 'granted' : 'denied',
+        ad_personalization: c.marketing ? 'granted' : 'denied'
+      });
+    } catch (e) {}
+  })();
+
+  /* GTM - upiši pravi ID umesto GTM-XXXXXXX i pokreni tools/build.ps1.
+     Dok je ID placeholder, GTM se NE učitava. */
+  var GTM_ID = 'GTM-XXXXXXX';
+  if (GTM_ID !== 'GTM-XXXXXXX') {
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',GTM_ID);
+  }
+</script>
+<!-- END: gtm-head -->
+
+  <!-- SEO -->
+  <title>Kontakt | Möller's Srbija</title>
+  <meta name="description" content="Kontakt za Möller's proizvode u Srbiji: telefon 0800 15 15 16, e-mail office@focusimc.com, Bulevar Zorana Đinđića 125, Beograd.">
+  <link rel="canonical" href="https://www.mollers.co.rs/kontakt.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Möller's Srbija">
+  <meta property="og:locale" content="sr_RS">
+  <meta property="og:title" content="Kontakt | Möller's Srbija">
+  <meta property="og:description" content="Kontakt za Möller's proizvode u Srbiji: telefon 0800 15 15 16, e-mail office@focusimc.com, Bulevar Zorana Đinđića 125, Beograd.">
+  <meta property="og:url" content="https://www.mollers.co.rs/kontakt.html">
+  <meta property="og:image" content="https://www.mollers.co.rs/assets/img/content/hero-boce-aurora.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kontakt | Möller's Srbija">
+  <meta name="twitter:description" content="Kontakt za Möller's proizvode u Srbiji: telefon 0800 15 15 16, e-mail office@focusimc.com, Bulevar Zorana Đinđića 125, Beograd.">
+  <meta name="twitter:image" content="https://www.mollers.co.rs/assets/img/content/hero-boce-aurora.jpg">
+
+  <!-- START: head-assets -->
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<!-- Fontovi se ne "preload"-uju: preload fonta zahteva CORS, a on puca kad se sajt otvori direktno iz foldera (file://) -->
+<link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<meta name="theme-color" content="#21453a">
+<script>
+  /* Uvodna animacija (kap ulja + logo, 1 s): pri svakom učitavanju (i osvežavanju),
+     OSIM kad se dolazi klikom na link unutar sajta (main.js tada postavlja "mollers_nav").
+     Ne prikazuje se ni uz sistemsko "smanji animacije". Za isključivanje: obriši ovaj <script>. */
+  (function () {
+    var internal = false;
+    try {
+      internal = sessionStorage.getItem('mollers_nav') === '1';
+      sessionStorage.removeItem('mollers_nav');
+    } catch (e) {}
+    if (!internal && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('has-intro');
+    }
+  })();
+</script>
+<!-- END: head-assets -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "name": "Kontakt",
+        "url": "https://www.mollers.co.rs/kontakt.html"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Početna", "item": "https://www.mollers.co.rs/" },
+          { "@type": "ListItem", "position": 2, "name": "Kontakt", "item": "https://www.mollers.co.rs/kontakt.html" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body data-nav="kontakt">
+  <!-- START: gtm-body -->
+<!-- GTM noscript: kad dobijemo pravi ID, zameni GTM-XXXXXXX i ukloni komentar oko iframe-a.
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+-->
+<!-- END: gtm-body -->
+
+  <!-- START: header -->
+<!-- Uvodna animacija (prikazuje se samo kad <html> ima klasu has-intro, vidi partials/head-assets.html) -->
+<div class="intro" aria-hidden="true">
+  <div class="intro-stage">
+    <span class="intro-glow"></span>
+    <span class="intro-ring"></span>
+    <span class="intro-ring intro-ring-2"></span>
+    <svg class="intro-drop" viewBox="0 0 24 32">
+      <defs>
+        <radialGradient id="intro-oil" cx="35%" cy="60%" r="70%">
+          <stop offset="0" stop-color="#fff6c8"/>
+          <stop offset=".45" stop-color="#f2b705"/>
+          <stop offset="1" stop-color="#a86f00"/>
+        </radialGradient>
+      </defs>
+      <path d="M12 0C9 7 2 14 2 21a10 10 0 0 0 20 0C22 14 15 7 12 0z" fill="url(#intro-oil)"/>
+      <ellipse cx="8.5" cy="19" rx="2.2" ry="3.4" fill="#fff" opacity=".75"/>
+    </svg>
+    <img class="intro-logo" src="assets/img/logo-mollers.svg" alt="" width="148" height="50">
+  </div>
+</div>
+<a class="skip-link" href="#main">Pređi na sadržaj</a>
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="index.html" aria-label="Möller's - početna strana">
+      <img src="assets/img/logo-mollers.svg" alt="Möller's" width="148" height="50">
+    </a>
+
+    <nav id="main-nav" class="main-nav" aria-label="Glavni meni">
+      <a href="proizvodi.html" data-nav="proizvodi">Proizvodi</a>
+      <a href="omega-3.html" data-nav="omega-3">Omega-3</a>
+      <a href="vitamini.html" data-nav="vitamini">Vitamini</a>
+      <a href="mollers-prica.html" data-nav="prica">Möller's priča</a>
+      <a href="blog.html" data-nav="blog">Blog</a>
+      <a href="kontakt.html" data-nav="kontakt">Kontakt</a>
+      <a class="btn-brand nav-cta" href="https://focusimcshop.rs/mollers/prodavnica/category-mollers/?utm_source=mollers.co.rs&amp;utm_medium=referral&amp;utm_campaign=mollers_brand_site&amp;utm_content=header-mobilni" target="_blank" rel="noopener" data-track="naruci">Naruči</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn-brand btn-sm-brand" href="https://focusimcshop.rs/mollers/prodavnica/category-mollers/?utm_source=mollers.co.rs&amp;utm_medium=referral&amp;utm_campaign=mollers_brand_site&amp;utm_content=header" target="_blank" rel="noopener" data-track="naruci">
+        Naruči
+        <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Otvori meni">
+        <svg class="icon-open" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+        <svg class="icon-close" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" hidden><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<!-- END: header -->
+
+  <!-- Podaci sa https://focusimcshop.rs/mollers/kontakt/ -->
+  <main id="main">
+    <section class="page-hero">
+      <div class="aurora" aria-hidden="true"></div>
+      <div class="container">
+        <nav class="breadcrumb-nav" aria-label="Putanja">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Početna</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Kontakt</li>
+          </ol>
+        </nav>
+        <span class="eyebrow reveal">Kontakt</span>
+        <h1 class="reveal"><span class="text-gradient">Tu smo</span> za sva vaša pitanja</h1>
+        <!-- Prilagođeno: na izvoru piše "Popunite formu ili nas pozovite...", a ovaj sajt nema formu -->
+        <p class="lead reveal">Imate pitanje ili nedoumicu? Pozovite nas ili nam pišite i odgovorićemo vam u najkraćem roku.</p>
+      </div>
+      <div class="wave-divider" aria-hidden="true" style="--section-after: var(--color-ice);">
+        <svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="currentColor" d="M0 38c120-18 240-27 360-22 160 7 260 37 420 37 170 0 290-38 440-43 90-3 160 6 220 14V70H0z"/></svg>
+      </div>
+    </section>
+
+    <section class="section section-ice pt-4" aria-label="Kontakt podaci">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="info-card reveal">
+              <span class="info-card-badge"><svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg></span>
+              <h2 class="h3">Telefon</h2>
+              <a href="tel:+381800151516" data-track="kontakt" data-contact-type="telefon">0800 15 15 16</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info-card reveal" style="--reveal-delay: .1s;">
+              <span class="info-card-badge"><svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/></svg></span>
+              <h2 class="h3">E-mail</h2>
+              <a href="mailto:office@focusimc.com" data-track="kontakt" data-contact-type="email">office@focusimc.com</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info-card reveal" style="--reveal-delay: .2s;">
+              <span class="info-card-badge"><svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></svg></span>
+              <h2 class="h3">Adresa</h2>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Bulevar+Zorana+%C4%90in%C4%91i%C4%87a+125,+Beograd" target="_blank" rel="noopener">Bulevar Zorana Đinđića 125</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-band mt-5 reveal">
+          <div class="aurora" aria-hidden="true"></div>
+          <span class="eyebrow">Društvene mreže</span>
+          <h2>Pratite Möller's Srbija</h2>
+          <p class="mb-4">Möller's Srbija je na Facebooku i Instagramu.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a class="btn-brand" href="https://focusimcshop.rs/mollers/prodavnica/category-mollers/?utm_source=mollers.co.rs&amp;utm_medium=referral&amp;utm_campaign=mollers_brand_site&amp;utm_content=kontakt" data-shop="kontakt" target="_blank" rel="noopener" data-track="naruci">
+              Naruči
+              <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+            </a>
+            <a class="btn-ghost" href="https://www.facebook.com/mollerssrbija" target="_blank" rel="noopener" data-track="social" data-network="facebook">Facebook</a>
+            <a class="btn-ghost" href="https://www.instagram.com/mollerssrbija" target="_blank" rel="noopener" data-track="social" data-network="instagram">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- START: footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-cta">
+      <h2>Möller's proizvodi se poručuju na focusimcshop.rs</h2>
+      <a class="btn-brand" href="https://focusimcshop.rs/mollers/prodavnica/category-mollers/?utm_source=mollers.co.rs&amp;utm_medium=referral&amp;utm_campaign=mollers_brand_site&amp;utm_content=footer" target="_blank" rel="noopener" data-track="naruci">
+        Naruči
+        <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+      </a>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <a class="footer-logo d-inline-block" href="index.html" aria-label="Möller's - početna strana">
+          <img src="assets/img/logo-mollers.svg" alt="Möller's" width="148" height="50" loading="lazy">
+        </a>
+        <!-- Tekst je doslovno iz footera focusimcshop.rs/mollers -->
+        <p class="footer-about">Möller’s proizvodi brinu o zdravlju ljudi u Norveškoj još od 1854. godine. Kompanija Orkla Health AS, koja stoji iza ovih proizvoda, nastavlja da prati viziju Petera Möllera, fokusirajući se na poboljšanje zdravlja kroz pravilnu ishranu, sa misijom da olakša zdrav život i zadovolji specifične zdravstvene potrebe potrošača u svakoj životnoj dobi.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/mollerssrbija" target="_blank" rel="noopener" aria-label="Möller's Srbija na Facebooku" data-track="social" data-network="facebook">
+            <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg>
+          </a>
+          <a href="https://www.instagram.com/mollerssrbija" target="_blank" rel="noopener" aria-label="Möller's Srbija na Instagramu" data-track="social" data-network="instagram">
+            <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h2>Proizvodi</h2>
+        <ul class="footer-links">
+          <li><a href="proizvodi.html#ulje">Ulje jetre bakalara</a></li>
+          <li><a href="proizvodi.html#jelly-fish">Jelly Fish ribice</a></li>
+          <li><a href="proizvodi.html#kapsule">Kapsule</a></li>
+          <li><a href="proizvodi.html">Svi proizvodi</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h2>Saznaj više</h2>
+        <ul class="footer-links">
+          <li><a href="omega-3.html">Omega-3</a></li>
+          <li><a href="vitamini.html">Vitamini</a></li>
+          <li><a href="mollers-prica.html">Möller's priča</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3">
+        <h2>Kontakt</h2>
+        <!-- Kontakt podaci sa focusimcshop.rs/mollers/kontakt (potvrđeno) -->
+        <ul class="footer-links footer-contact">
+          <li>
+            <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg>
+            <a href="tel:+381800151516" data-track="kontakt" data-contact-type="telefon">0800 15 15 16</a>
+          </li>
+          <li>
+            <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/></svg>
+            <a href="mailto:office@focusimc.com" data-track="kontakt" data-contact-type="email">office@focusimc.com</a>
+          </li>
+          <li>
+            <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></svg>
+            <span>Bulevar Zorana Đinđića 125</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="mb-0">© Möller's Srbija. Distributer: Focus IMC d.o.o.</p>
+      <ul>
+        <li><a href="politika-privatnosti.html">Politika privatnosti</a></li>
+        <li><a href="politika-kolacica.html">Politika kolačića</a></li>
+        <li><button type="button" data-open-cookie-settings>Podešavanja kolačića</button></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- END: footer -->
+
+  <!-- START: cookie-banner -->
+<!-- TODO: sadržaj od klijenta - tekst banera uskladiti sa politikom kolačića kad stigne -->
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-text" hidden>
+  <div class="container">
+    <div class="cookie-banner-inner">
+      <div class="cookie-banner-text">
+        <h2 id="cookie-title" tabindex="-1">Kolačići</h2>
+        <p id="cookie-text">Koristimo neophodne kolačiće da bi sajt radio. Uz vašu saglasnost koristimo i kolačiće za statistiku i marketing. Izbor možete promeniti bilo kada preko linka "Podešavanja kolačića" u dnu stranice. <a href="politika-kolacica.html">Politika kolačića</a></p>
+      </div>
+
+      <div class="cookie-actions">
+        <button type="button" class="btn-brand btn-sm-brand" data-consent="all">Prihvati sve</button>
+        <button type="button" class="btn-outline-brand btn-sm-brand" data-consent="necessary">Samo neophodni</button>
+        <button type="button" class="btn-outline-brand btn-sm-brand" data-consent="settings" aria-expanded="false">Podešavanja</button>
+      </div>
+    </div>
+
+    <div class="cookie-options" hidden>
+      <label class="cookie-option">
+        <input type="checkbox" checked disabled>
+        <span><strong>Neophodni</strong><span>Potrebni za osnovni rad sajta. Uvek uključeni.</span></span>
+      </label>
+      <label class="cookie-option">
+        <input type="checkbox" id="consent-statistics">
+        <span><strong>Statistika</strong><span>Pomažu nam da razumemo kako se sajt koristi (anonimno).</span></span>
+      </label>
+      <label class="cookie-option">
+        <input type="checkbox" id="consent-marketing">
+        <span><strong>Marketing</strong><span>Koriste se za prikaz relevantnih oglasa na drugim sajtovima.</span></span>
+      </label>
+      <button type="button" class="btn-brand btn-sm-brand" data-consent="save">Sačuvaj izbor</button>
+    </div>
+  </div>
+</div>
+<!-- END: cookie-banner -->
+
+  <!-- START: scripts -->
+<script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<!-- END: scripts -->
+</body>
+</html>
